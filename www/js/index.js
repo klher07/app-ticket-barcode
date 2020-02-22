@@ -398,7 +398,7 @@ function validarIngresocodigo(){
                                  }else if(centil==3){
                                   window.location = '';
                                  }
-                            }, 10);
+                            }, 2000);
                         }else if(estado == "I"){
                             // alert('ya usado');
                             var db = window.openDatabase("Database", "1.0", "TicketMobile", 200000);
