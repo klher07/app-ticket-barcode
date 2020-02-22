@@ -347,7 +347,7 @@ function validarIngresocodigo(){
                                  }else if(centil==3){
                                   //window.location = '';
                                   $('#mensajePrueba').css('display','block');
-                                   location.reload();
+                                   conteo_boletos();
                                  }
                             }, 200);
                         }else if(estado == "ANU"){
@@ -506,7 +506,7 @@ function validarIngresocodigo(){
                                  }else if(centil==3){
                                   //window.location = '';
                                   $('#mensajePrueba').css('display','block');
-                                   location.reload();
+                                   conteo_boletos();
                                  }
                             }, 200);
                         }
