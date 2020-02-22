@@ -345,7 +345,9 @@ function validarIngresocodigo(){
                                    // location.reload();
                                    barcodescanner();
                                  }else if(centil==3){
-                                  window.location = '';
+                                  //window.location = '';
+                                  $('#mensajePrueba').css('display','block');
+                                   location.reload();
                                  }
                             }, 200);
                         }else if(estado == "ANU"){
@@ -502,7 +504,9 @@ function validarIngresocodigo(){
                                    // location.reload();
                                    barcodescanner();
                                  }else if(centil==3){
-                                  window.location = '';
+                                  //window.location = '';
+                                  $('#mensajePrueba').css('display','block');
+                                   location.reload();
                                  }
                             }, 200);
                         }
