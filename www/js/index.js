@@ -346,7 +346,7 @@ function validarIngresocodigo(){
                                    barcodescanner();
                                  }else if(centil==3){
                                   //window.location = '';
-                                  $('#mensajePrueba').css('display','block');
+                                  $('#mensajePrueba').css('display','none');
                                    conteo_boletos();
                                  }
                             }, 200);
@@ -505,7 +505,7 @@ function validarIngresocodigo(){
                                    barcodescanner();
                                  }else if(centil==3){
                                   //window.location = '';
-                                  $('#mensajePrueba').css('display','block');
+                                  $('#mensajePrueba').css('display','none');
                                    conteo_boletos();
                                  }
                             }, 200);
